@@ -6,7 +6,7 @@ Small program that takes a pdf, outputs text. Lists line and word count in comma
 
 ## To run:
 
-Install ruby and bundler
+You will need Ruby and Bundler
 
 clone repo and enter directory
 
