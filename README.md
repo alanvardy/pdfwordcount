@@ -4,7 +4,7 @@ Credit to [Emad Elsaid](https://gist.github.com/emad-elsaid/9722831)
 
 Small program that takes a pdf, outputs text. Lists line and word count in command line.
 
-## To run:
+## Run
 
 You will need Ruby and Bundler
 
@@ -26,4 +26,5 @@ run program
 ```ruby
 ruby pdfwordcount.rb /path/to/file.pdf (/path/to/file2.pdf etc...)
 ```
+
 Shared under MIT license
