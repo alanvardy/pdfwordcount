@@ -26,3 +26,4 @@ run program
 ```ruby
 ruby pdfwordcount.rb /path/to/file.pdf (/path/to/file2.pdf etc...)
 ```
+Shared under MIT license
