@@ -24,12 +24,14 @@ ARGV.each do |filename|
         ''
       end
 
-	  end # pages map
+    end # pages map
+
     filename = filename.scan(/\A(.+)\./)[0][0]
     puts "\nWriting #{filename}.txt to disk"
-    File.write filename + '.txt', txt.join("\n")
-    words = txt.map {|line| line.split(' ').count}.sum
-    lines = txt.join.scan(/\n(.+)\n/).count
+    newdoc = txt.join("\n")
+    File.write filename + '.txt', newdoc
+    words = txt.map { |line| line.split(' ').count }.sum
+    lines = newdoc.scan(/\n(.+)\n/).count
     puts "Lines: #{lines}"
     puts "Words: #{words}"
 
